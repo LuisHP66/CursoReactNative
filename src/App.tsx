@@ -1,4 +1,10 @@
-import { SafeAreaView, Text, View } from "react-native";
+import {SafeAreaView, Text} from "react-native";
+import styled from "styled-components/native";
+
+const TextNew = styled.Text`
+    font-size: 24px;
+    color: blue;
+`;
 
 const App = () => {
     return (
@@ -6,6 +12,9 @@ const App = () => {
             <Text>
                 Testando
             </Text>
+            <TextNew>
+                NOVO TESTE
+            </TextNew>
         </SafeAreaView>
     );
 };
