@@ -1,20 +1,15 @@
-import {SafeAreaView, Text} from "react-native";
-import styled from "styled-components/native";
-
-const TextNew = styled.Text`
-    font-size: 24px;
-    color: blue;
-`;
+import {Button, SafeAreaView, Text} from "react-native";
+import { UseApp } from "./UseApp";
 
 const App = () => {
+    const {handleOnPress, value} = UseApp();
+
     return (
         <SafeAreaView>
             <Text>
-                Testando
+                {value}
             </Text>
-            <TextNew>
-                NOVO TESTE
-            </TextNew>
+            <Button title="BOTAO" onPress={handleOnPress} />
         </SafeAreaView>
     );
 };
