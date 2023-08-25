@@ -1,15 +1,10 @@
-import {Button, SafeAreaView, Text} from "react-native";
-import { UseApp } from "./UseApp";
+import { SafeAreaView } from "react-native";
+import Login from "./modules/login";
 
 const App = () => {
-    const {handleOnPress, value} = UseApp();
-
     return (
         <SafeAreaView>
-            <Text>
-                {value}
-            </Text>
-            <Button title="BOTAO" onPress={handleOnPress} />
+            <Login />
         </SafeAreaView>
     );
 };
