@@ -1,11 +1,15 @@
 import { Text, View } from "react-native";
+import Input from "../../../shared/components/input/Input";
+
+import { ContainerLogin } from "../styles/login.style";
 
 const Login = () => {
     return (
         <View>
-            <Text>
-                Login
-            </Text>
+            <ContainerLogin>
+                <Text>Login Teste</Text>
+                <Input />
+            </ContainerLogin>
         </View>
     );
 };
