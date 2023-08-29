@@ -12,5 +12,5 @@ export const ButtonContainer = styled.TouchableOpacity<ButtonContainerProps>`
     justify-content: center;
     align-items: center;
 
-    background-color: blue;
+    background-color: #4f9481;
 `;
