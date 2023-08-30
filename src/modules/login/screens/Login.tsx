@@ -11,7 +11,7 @@ const Login = () => {
     return (
         <View>
             <ContainerLogin>
-                <Text type={textTypes.TITLE} color={theme.colors.neutralTheme.white}>Login</Text>
+                <Text type={textTypes.TITLE_REGULAR} color={theme.colors.neutralTheme.white}>Login</Text>
                 <Input />
                 <Button margin="20px" title="Entrar"/>
             </ContainerLogin>
